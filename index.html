@@ -12,7 +12,21 @@
     <h1>Day Finder</h1>
     <div class="container">
       <input id="year" type="number" placeholder="Year" />
-      <input id="month" type="text" placeholder="Month" />
+      <select name="month-select" id="month">
+        <option value="Select Month">Select Month</option>
+        <option value="Jan">Jan</option>
+        <option value="Feb">Feb</option>
+        <option value="Mar">Mar</option>
+        <option value="Apr">Apr</option>
+        <option value="May">May</option>
+        <option value="Jun">Jun</option>
+        <option value="Jul">Jul</option>
+        <option value="Aug">Aug</option>
+        <option value="Sep">Sep</option>
+        <option value="Oct">Oct</option>
+        <option value="Nov">Nov</option>
+        <option value="Dec">Dec</option>
+      </select>
       <input id="date" type="number" placeholder="Date" />
       <button id="calculateBtn">Find the Day</button>
       <h2 id="result">Result</h2>
