@@ -32,7 +32,7 @@ h1:first-child {
 .container h2 {
   font-size: 3rem;
   margin: 20px;
-  color: orange;
+  color: green;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 .container input {
@@ -45,6 +45,7 @@ button {
   border: 2px solid green;
   font-size: 2rem;
   padding: 10px 50px;
+  margin-top: 10px;
   background-color: transparent;
   cursor: pointer;
 }
